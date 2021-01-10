@@ -1,0 +1,20 @@
+{
+  "name": "tubeseai",
+  "version": "1.0.0",
+  "description": "employee rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "12.13.0"
+  }
+}

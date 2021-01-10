@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <title>RestAPI HRD!</title>
+  </head>
+
+  <body style="">
+    <!-- Image and text -->
+    <nav class="navbar navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="images/logorhine.png"
+            width="58"
+            height="30"
+            class="d-inline-block align-top"
+            alt=""
+            loading="lazy"
+          />
+          API HAERDE
+        </a>
+      </div>
+    </nav>
+
+    <!-- main -->
+    <div class="container">
+      <div class="card mt-4">
+        <div class="card-header">Rest API Guide</div>
+        <div class="card-body">
+          <h4 class="mb-3">Get Method</h4>
+          <blockquote class="blockquote">
+            <p>/employee</p>
+            <footer class="blockquote-footer">
+              Get all employee data
+              <cite title="Source Title">Source Title</cite>
+            </footer>
+          </blockquote>
+
+          <blockquote class="blockquote">
+            <p>/employee/name</p>
+            <code>
+              Parameter Required <br />
+              name : string
+            </code>
+            <footer style="margin-top: 14px" class="blockquote-footer">
+              Get employee by name<cite title="Source Title">Source Title</cite>
+            </footer>
+          </blockquote>
+
+          <blockquote class="blockquote">
+            <p>/employee/departement</p>
+            <code>
+              Parameter Required <br />
+              departement : string
+            </code>
+            <footer style="margin-top: 14px" class="blockquote-footer">
+              Get employee by departement<cite title="Source Title"
+                >Source Title</cite
+              >
+            </footer>
+          </blockquote>
+
+          <blockquote class="blockquote">
+            <p>/absen</p>
+            <footer style="margin-top: 14px" class="blockquote-footer">
+              Get absent data<cite title="Source Title">Source Title</cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="card mt-4">
+        <div class="card-header">Rest API Guide</div>
+        <div class="card-body">
+          <h4 class="mb-3">Post Method</h4>
+          <blockquote class="blockquote">
+            <p>/employee/insert</p>
+            <code>
+              Parameter Required <br />
+              name : string <br />
+              sex : string <br />
+              departement : string <br />
+              status : string <br />
+              phone : int <br />
+              start : date <br />
+              birth : date <br />
+              place : string <br />
+              religion : string <br />
+              address : string <br />
+              education : string <br />
+              payment : int <br />
+            </code>
+            <footer style="margin-top: 14px" class="blockquote-footer">
+              insert new employee
+            </footer>
+          </blockquote>
+
+          <blockquote class="blockquote">
+            <p>/employee/update</p>
+            <code>
+              Parameter Required <br />
+              nip : int <br>
+              name : string <br />
+              sex : string <br />
+              departement : string <br />
+              status : string <br />
+              phone : int <br />
+              start : date <br />
+              birth : date <br />
+              place : string <br />
+              religion : string <br />
+              address : string <br />
+              education : string <br />
+              payment : int <br />
+            </code>
+            <footer style="margin-top: 14px" class="blockquote-footer">
+              update employee
+            </footer>
+          </blockquote>
+
+          <blockquote class="blockquote">
+            <p>/absen</p>
+            <code>
+              Parameter Required <br />
+              nip : int 
+            </code>
+            <footer style="margin-top: 14px" class="blockquote-footer">
+              insert absent
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+
+         <div class="card mt-4">
+        <div class="card-header">Rest API Guide</div>
+        <div class="card-body">
+          <h4 class="mb-3">Put Method</h4>
+          <blockquote class="blockquote">
+            <p>/employee/delete</p>
+               <code>
+              Parameter Required <br />
+              nip : integer
+            </code>
+            <footer style="margin-top:15px" class="blockquote-footer">
+              Delete employee data
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
